@@ -27,8 +27,12 @@ timedelta
 timezone
 tzinfo
 '''
+class Solution:
+    def output_result():
+        [print(key) for key in [key for key, _ in datetime.__dict__.items()]]
 
-[print(key) for key in [key for key, _ in datetime.__dict__.items()]]
+Solution.output_result()
+
 
 '''
 output:
