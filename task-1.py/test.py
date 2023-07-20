@@ -7,6 +7,7 @@ class testTask_1(unittest.TestCase):
     
     def test_arg_names(self):
         self.assertEqual(self.attr, ('company', 'country', 'price', 'currency'))
-        
+
+
 if __name__ == '__main__':
     unittest.main()
