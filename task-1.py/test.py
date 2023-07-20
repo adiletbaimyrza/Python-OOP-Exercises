@@ -1,10 +1,10 @@
 import unittest
-from main import attr
+from main import Solution
 
 class testTask_1(unittest.TestCase):
-    attr = attr
+    attr = Solution.arg_names()
     
-    def test_stock_info_attr(self):
+    def test_arg_names(self):
         self.assertEqual(self.attr, ('company', 'country', 'price', 'currency'))
         
 if __name__ == '__main__':

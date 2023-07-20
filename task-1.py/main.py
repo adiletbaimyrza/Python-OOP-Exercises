@@ -21,4 +21,6 @@ def stock_info(company, country, price, currency):
 # print(stock_info.__code__.co_argcount) #returns number of function's arguments
 # print(stock_info.__code__.co_varnames) #returns tuple of string names of function arguments
 
-attr = stock_info.__code__.co_varnames
+class Solution():
+    def arg_names():
+        return stock_info.__code__.co_varnames
