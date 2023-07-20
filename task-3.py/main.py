@@ -6,9 +6,14 @@ Expected result:
 2
 counter = 1
 def update_counter():
-counter += 1
+    counter += 1
 '''
 
 counter = 1
-def update_counter():
-counter += 1
+
+class Solution():
+    
+    def update_counter():
+        global counter
+        counter += 1
+        return counter
