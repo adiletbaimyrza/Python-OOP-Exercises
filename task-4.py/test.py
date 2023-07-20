@@ -4,7 +4,7 @@ from main import Solution
 
 class testTask_4(unittest.TestCase):
     def test_update_counters(self):
-        for i in range(40):
+        for _ in range(40):
             Solution.update_counters()
         
         from main import counter, dot_counter
