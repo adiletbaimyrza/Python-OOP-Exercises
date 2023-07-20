@@ -45,7 +45,7 @@ class Product:
 
 class Solution:
     def output_result():
-        [print(key) for key in [key for key, _ in Product.__dict__.items()]]
+        [print(key) for key in Product.__dict__]
 
 Solution.output_result()
 
