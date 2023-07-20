@@ -1,6 +1,7 @@
 import unittest
 from main import Solution
 
+
 class testTask_1(unittest.TestCase):
     attr = Solution.arg_names()
     

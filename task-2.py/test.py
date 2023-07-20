@@ -1,6 +1,7 @@
 import unittest
 from main import Solution
 
+
 class testTask_2(unittest.TestCase):
     docstring = Solution.sum_func_docstring()
     sum_li = Solution.sum_list()
