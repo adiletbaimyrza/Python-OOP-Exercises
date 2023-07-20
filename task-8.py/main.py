@@ -1,15 +1,3 @@
-'''
-The Product class is specified. An instance of this class named product was created.
-Display the namespace (value of the _dict_ attribute) of this instance as shown below.
-
-Expected result:
-
-{'product_name': 'Mobile Phone1, 'product_id': '54274', 'price': 2900}
-'''
-
-import uuid
-
-
 class Product:
     def __init__(self, product_name, product_id, price):
         self.product_name = product_name
